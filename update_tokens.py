@@ -3,7 +3,7 @@ import json
 
 UIDPASS_FILE = "uidpass.json"
 TOKEN_FILE = "tokens.json"
-API_URL = "https://ff-jwt-ss.vercel.app/token"
+API_URL = "https://syncjwt-1.onrender.com/token"
 
 def read_uidpass():
     with open(UIDPASS_FILE, "r", encoding="utf-8") as f:
